@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Click Premiado",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codergustavo.myapp"
+    },
+    "android": {
+  
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.codergustavo.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+
+    
+
+  }
+}
